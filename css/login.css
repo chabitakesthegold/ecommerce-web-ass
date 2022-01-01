@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    }
+    
+    body  {
+        backgrond-image: url(https://images.unsplash.com/photo-1625698311031-f0dd15be5144?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);  background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:center;
+        background-size: cover;
+        background-color: #E0E4FF;
+        backdrop-filter:blur(2px);
+        position: relative;;
+      }
+    .header{
+        position:sticky;
+        display: flex;
+    }
+    
+    
+    .badge{
+    
+    height:50px;
+    position: ;
+    
+    }
+    .badge a{
+        padding: 10em 0em;
+        text-align: ;
+        }
+        
+        .badge a{
+                
+            color: rgb(0, 0, 0);
+            
+            font-weight: lighter;
+            font-size: 5em;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+        .badge a h4{
+            font-family: 'Monoton', cursive;
+            font-weight: 500;
+            font-size: 1em;
+        }
+        .badge a h3{
+            font-family: 'Licorice', cursive !important;
+            font-weight: 500;
+            font-size: 0.7em;
+            text-align: left;
+        }
+        
+        
+        
+        .nav{
+            position: sticky;
+            padding: 0em 0em;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .nav-link{
+            color: rgb(2, 2, 2) !important;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            text-shadow: 2px 2px 5px;
+        }
+        
+        a.nav-link{
+            color: rgb(7, 6, 1) !important;
+            font-family: 'Montserrat', sans-serif;
+        }
+        span.navbar-toggler-icon{
+            color: rgb(248, 217, 93) !important;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+    .nav{
+        position: sticky;
+        padding: 0em 0em;
+    }
+    
+    .navbar-brand h4{
+
+    }
+    .navbar-brand h3{
+
+    }
+    .modal-title{
+        font-family: ;
+color: aliceblue;
+    }
+    .modal-footer{
+        text-align: center;
+        align-items:center ;
+        display: block !important;
+    }
+
+    a.logo{
+        font-family: 'Licorice', cursive !important;
+        text-decoration: none;
+        cursor:pointer;
+        color: rgb(255,255,255);
+        font-size:3em;
+      }
+      

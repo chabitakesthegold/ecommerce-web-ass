@@ -1,0 +1,191 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+body  {
+    background-image: url(https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    background-color: #464646;
+    backdrop-filter:blur(2px);
+    position: relative;
+  }
+.header{
+    position:-webkit-sticky;
+    
+}
+
+
+.badge{
+
+height:50px;
+position: sticky;
+}
+.badge a{
+padding: 5em 0em;
+text-align: left;
+}
+.badge a{
+        
+    color: rgb(248, 217, 93);
+    
+    font-weight: lighter;
+    font-size: 5em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.badge a h4{
+    font-family: 'Monoton', cursive;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.badge a h3{
+font-family: 'Licorice', cursive !important;
+font-weight: 500;
+font-size: 0.7em;
+}
+
+
+
+.nav{
+    position: sticky;
+    padding: 0em 0em;
+   
+}
+
+.nav-link{
+
+    font-weight: 100;
+    text-shadow: 2px 2px 5px;
+}
+
+a.nav-link{
+    color: rgb(247, 247, 247) !important;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(230, 194, 54);
+}
+
+.carousel-inner img{
+ max-height: 80vh;
+padding: 0px,0px;
+}
+
+.py-4 caro{
+padding: 0px,0px;
+}
+.drops.container{
+
+    padding: 3em 0em ;
+    
+    
+    }
+    .cats.container{
+
+        padding: 1em 0em ;
+        
+        overflow: hidden;
+        }
+        .cats.container .row{
+
+            padding: 1em 2em ;
+            height:600px;
+            }
+img.cat.card-img-top{
+                padding: 15px;
+                    }
+.col-2{
+    max-height: 5px;
+
+
+}
+
+
+
+. card-text{
+color: rgb(1, 0, 2);
+}
+.card-text-description{
+    color: rgb(1, 0, 2);
+    }
+    .card-text-size{
+        color: rgb(1, 0, 2);
+        }
+    .card-text-price{
+        color: rgb(1, 0, 2);
+        }
+.card-img-top {
+    width: 100%;
+    height: ;
+}
+
+div.card.card-cover{
+    background-repeat: no-repeat;
+    background-attachment:;
+    background-position:center center;
+    background-size: cover;
+    object-fit: contain;
+
+
+}
+.sections-h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+h2{
+    color: aliceblue;
+   
+
+}
+
+.container-categories .card{
+    margin-right: 3px;
+    max-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.col .card shadow-sm .img {
+    
+    
+}
+
+
+.container .container-marketing.row col-lg-4{
+align-items: center;
+}
+
+
+.container{
+    padding-top:10px;
+}
+
+.trending.container{
+
+    padding: 5em 0em ;
+    
+    
+    }
+    .old{
+        text-decoration: line-through;
+    }
+
+
+
+    

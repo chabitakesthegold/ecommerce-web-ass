@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    }
+    
+    body  {
+        background-image: url(https://images.unsplash.com/photo-1612258707587-d568bdc32061?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);  background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:center;
+        background-size: cover;
+        background-color: #464646;
+        backdrop-filter:blur(2px);
+        position: relative;;
+      }
+    .header{
+        position:sticky;
+        
+    }
+    
+
+    .badge{
+
+        height:50px;
+        position: sticky;
+        }
+        .badge a{
+        padding: 5em 0em;
+        text-align: left;
+        }
+        .badge a{
+                
+            color: rgb(0, 0, 0);
+            
+            font-weight: lighter;
+            font-size: 5em;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+        .badge a h4{
+            font-family: 'Monoton', cursive;
+            font-weight: 500;
+            font-size: 1.1em;
+        }
+        
+        .badge a h3{
+        font-family: 'Licorice', cursive !important;
+        font-weight: 500;
+        font-size: 0.7em;
+        }
+        
+        
+        
+        .nav{
+            position: sticky;
+            padding: 0em 0em;
+           
+        }
+        
+        .nav-link{
+        
+            font-weight: 100;
+            text-shadow: 2px 2px 5px;
+        }
+        
+        a.nav-link{
+            color: rgb(247, 247, 247) !important;
+            font-family: 'Varela Round', sans-serif;
+        
+        }
+        
+    .navbar-brand h4{
+
+    }
+    .navbar-brand h3{
+
+    }
+
+    .modal-backdrop {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1050;
+        width: 100vw;
+        min-height: 100vh;
+        background-color: #000;
+    }

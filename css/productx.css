@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    }
+    
+    body  {
+        background-image: url(https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:center;
+        background-size: cover;
+        background-color: #464646;
+        backdrop-filter:blur(2px);
+        position: relative;
+      }
+    .header{
+        position:-webkit-sticky;
+        
+    }
+    
+    
+    .badge{
+    
+    height:50px;
+    position: sticky;
+    }
+    .badge a{
+    padding: 5em 0em;
+    text-align: left;
+    }
+    .badge a{
+            
+        color: rgb(248, 217, 93);
+        
+        font-weight: lighter;
+        font-size: 5em;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .badge a h4{
+        font-family: 'Monoton', cursive;
+        font-weight: 500;
+        font-size: 1.1em;
+    }
+    
+    .badge a h3{
+    font-family: 'Licorice', cursive !important;
+    font-weight: 500;
+    font-size: 0.7em;
+    }
+    
+    
+    
+    .nav{
+        position: sticky;
+        padding: 0em 0em;
+       
+    }
+    
+    .nav-link{
+    
+        font-weight: 100;
+        text-shadow: 2px 2px 5px;
+    }
+    
+    a.nav-link{
+        color: rgb(247, 247, 247) !important;
+        font-family: 'Varela Round', sans-serif;
+    
+    }
+    
+    span.navbar-toggler-icon{
+        color: rgb(248, 217, 93) !important;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .navbar-brand h4{
+
+    }
+    .navbar-brand h3{
+
+    }
+
+   h1.display-4.fw-bold.lh-1{
+       color: aliceblue !important;
+   }
+
+   div.card.card-cover{
+    background-repeat: no-repeat;
+    background-attachment:;
+    background-position:center center;
+    background-size: cover;
+    object-fit:contain;
+
+
+}
+
+p.lead{
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.btn-group-lg{
+    padding:10px;
+}
